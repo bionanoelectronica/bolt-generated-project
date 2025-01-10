@@ -1,0 +1,64 @@
+.monitoring-controls {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+
+    .monitoring-controls h3 {
+      margin: 0;
+      margin-right: 20px;
+      font-size: 18px;
+      color: #333;
+    }
+
+    .controls {
+      display: flex;
+      margin-right: 20px;
+    }
+
+    .control-button {
+      background-color: #283593;
+      color: #fff;
+      border: none;
+      padding: 10px;
+      margin-right: 5px;
+      cursor: pointer;
+      font-size: 16px;
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .control-button.play {
+      padding-left: 12px;
+    }
+
+    .control-button.pause {
+      padding-left: 10px;
+    }
+
+    .control-button.stop {
+      padding-left: 10px;
+    }
+
+    .sampling-options {
+      display: flex;
+    }
+
+    .sampling-option {
+      background-color: #e0e0e0;
+      border: none;
+      padding: 10px 20px;
+      margin-right: 5px;
+      cursor: pointer;
+      font-size: 14px;
+      color: #333;
+    }
+
+    .sampling-option.active {
+      background-color: #283593;
+      color: #fff;
+    }
